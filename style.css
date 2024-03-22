@@ -141,7 +141,7 @@ form input[type="submit"] {
 body {
     font-family: 'Open Sans', sans-serif;
     color: #323cf0;
-    background-image: url('/web_programing/week3-2/images/8.jpeg'); /* 배경 이미지 경로 */
+    background-image: url('/images/8.jpeg'); /* 배경 이미지 경로 */
     background-size: cover; /* 이미지를 화면에 가득 채움 */
     background-position: center; /* 이미지 위치 조정 */
     background-repeat: no-repeat; /* 이미지 반복 방지 */
