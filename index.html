@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to my homepage</title>
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <link href = "https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel = "stylesheet">
+</head>
+<body>
+    <div class = "container">
+        <div class = "intro">
+            <!-- you can replace with your own profile picture -->
+            <!-- or use random portrait image here: https://source.unsplash.com/100x100/?portrait -->
+            <img class = "profile-picture" src="/web_programing/week3-2/images/1.jpeg" />
+            <h1>Park ByeongYun</h1>
+            <h3>Web and AI Developer at My Company</h3>
+            <p>{{ My motivation/motto }}</p>
+        </div>
+        <hr />
+        <div class = "about-grid">
+            <div class = "i-am">
+                <h3>I am</h3>
+                <ul class = "about-list">
+                    <li>A student</li>
+                    <li>A traveler</li>
+                    <li>A volunteer</li>
+                </ul>
+            </div>
+            <div class = "i-like">
+                <h3>I like to</h3>
+                <ul class = "about-list">
+                    <li>Take photographs</li>
+                    <li>Play guitar</li>
+                    <li>Write poetry</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="projects-heading">
+            <h3>My Projects</h3>
+			<h2>The images are made using artificial intelligence</h2>
+            <div class = "projects-grid">
+                <!-- you can replace with your own projects images -->
+                <!-- or use random image here: https://source.unsplash.com/random/300x300/?img=1 -->
+                <img class = "project-image" src="/web_programing/week3-2/images/2.jpeg"/>
+                <img class = "project-image" src="/web_programing/week3-2/images/3.jpeg"/>
+                <img class = "project-image" src="/web_programing/week3-2/images/4.jpeg"/>
+                <img class = "project-image" src="/web_programing/week3-2/images/5.jpeg"/>
+			</div>
+        </div>
+        <div class = "links-and-contact">
+            <div class = "links">
+                <h3>Links</h3>
+                <ul class = "links-list">
+                    <li>
+                        <a href="https://github.com/">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <form action="#">
+                    <label for="email">
+                        Email: <input type="email" id="email" placeholder="Enter your email" /> 
+                    </label>
+                    <label for="message">
+                        Message: <textarea id="message">Your Message</textarea>
+                    </label>
+                    <input type="submit" class = "submit-button-wrapper" valid="Send Message" />
+                </form>
+            </div>
+        </div>
+        <div class="map">
+			<h1>My favorite restaurant</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.107266205006!2d127.0715619!3d37.552536499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca543e32c665d%3A0x9c5a740196b93f7e!2z7IiY656A7KO8!5e0!3m2!1sko!2skr!4v1711118152234!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+		
+    </div>
+</body>
+</html>
